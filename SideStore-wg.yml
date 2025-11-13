@@ -1,4 +1,4 @@
-proxies+:
+proxies:
   - name: SideStore-wg
     type: wireguard
     server: 127.0.0.1
