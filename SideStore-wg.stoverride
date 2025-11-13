@@ -1,0 +1,14 @@
+name: 'SideStore-wg'
+
+proxies:
+  - name: SideStore-wg
+    type: wireguard
+    server: 127.0.0.1
+    port: 51820
+    ip: 10.7.0.10
+    public-key: kHDoekeYhBvfW9a9UQ+UCmpbG423eejTjcjW+DT+JF0=
+    private-key: AIIeeUDvk3NeAFJ9BWCQvPJize/9WZibMnGJ/0rt5k4=
+    allowed-ips:
+      - 10.7.0.1/32
+    persistent-keepalive: 25
+    udp: true
